@@ -1,4 +1,3 @@
-import 'dart:io';
 
 String reversed_string(String str) {
   String reversed = "";
