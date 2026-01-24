@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main() {
+void function() {
   // Integer input
   stdout.write("Enter an integer: ");
   int num = int.parse(stdin.readLineSync()!);
@@ -85,4 +85,40 @@ void main() {
   // Future
   Future<String> futureString = Future.value("I am a Future");
   futureString.then((value) => print("Future value: $value"));
+}
+
+void main(List<String> args) {
+  //Integer variable data type
+  int number1 = 10;
+  print(number1);
+  number1 = 20;
+  print(number1);
+
+  //Double variable data type
+  double num2 = 10.5;
+  print(num2);
+  num2 = 22.2;
+  print(num2);
+
+  //Numvariable data type when we dont know it is int type or double
+  num number = 5;
+  print(number);
+  number = 5.5;
+  print(number);
+
+  //String data type and interpolation
+  String srting1 = 'learning the dart programming language';
+  String string2;
+  string2 = "getting information about the string data type";
+  print('$srting1 $string2');
+
+  print("$number1+$num2");
+  print("${number1 + num2}");
+
+  //Final and const concept
+
+  final country = "India";
+
+  const num1 = 5;
+  //the both final and constant these both dont change in the future
 }
