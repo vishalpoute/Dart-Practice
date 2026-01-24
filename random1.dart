@@ -14,7 +14,7 @@ void main(List<String> args) {
   print('4. Division');
   print('Enter the number of the action you want to perform:');
 
-  int action =int.parse(stdin.readLineSync()!);
+  int action = int.parse(stdin.readLineSync()!);
   switch (action) {
     case 1:
       print('Addition: ${add(num1, num2)}');
