@@ -100,7 +100,7 @@ void main(List<String> args) {
   num2 = 22.2;
   print(num2);
 
-  //Numvariable data type when we dont know it is int type or double
+  //Num variable data type when we dont know it is int type or double
   num number = 5;
   print(number);
   number = 5.5;

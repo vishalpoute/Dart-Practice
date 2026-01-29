@@ -1,20 +1,51 @@
-//Using if, else and else if
-void main(List<String> args) {
-  int num1 = 22;
-  int num2 = 21;
-  if (num1 > num2) {
-    print("$num1 is greter than the $num2");
-  } else {
-    print("$num2 is greter than the $num1");
-  }
+//Using for loop
 
-  int num3 = 23;
-  int num4 = 23;
-  if (num3 > num4) {
-    print("$num3 is greter than the $num4");
-  } else if (num4 > num3) {
-    print("$num3 is greter than the $num4");
-  } else {
-    print("the both $num3 and $num4 are equal");
+void loops() {
+  for (int i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
+      print("Value of i is $i");
+    }
   }
+}
+
+void forcities() {
+  List<String> cities = [
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Houston",
+    "Phoenix",
+  ];
+
+  for (String city in cities) {
+    print("City name is $city");
+  }
+}
+
+// While loop example
+void whileloop() {
+  int i = 1;
+  while (i < 10) {
+    print("Value of i is $i");
+    i++;
+  }
+}
+
+//Do While loop example
+void dowhileloop() {
+  int i = 0;
+  do {
+    print("the value of i is $i");
+    i++;
+  } while (i < 10);
+}
+
+void main(List<String> args) {
+  // loops();
+
+  // forcities();
+
+  // whileloop();
+
+  dowhileloop();
 }
