@@ -28,7 +28,7 @@ void main(List<String> args) {
   bool cond2 = true;
 
   print(cond2 && cond1);
-  print(cond2 || cond1);
+  print(cond2);
   print(!cond2);
 
   /***********/

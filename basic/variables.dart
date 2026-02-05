@@ -117,8 +117,8 @@ void main(List<String> args) {
 
   //Final and const concept
 
-  final country = "India";
+  // final country = "India";
 
-  const num1 = 5;
+  // const num1 = 5;
   //the both final and constant these both dont change in the future
 }
